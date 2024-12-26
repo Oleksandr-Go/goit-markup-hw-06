@@ -20,8 +20,8 @@
     <title>homework 6</title>
   </head>
   <body>
-    <!-- навігація хедера -->
     <header class="menu">
+      <!-- #region навігація хедера -->
       <div class="container">
         <nav class="menu-nav">
           <a href="./index.html" class="logo-upp"
@@ -33,8 +33,9 @@
             <li><a href="#" class="nav-link">Contacts</a></li>
           </ul>
         </nav>
+        <!-- #endregion -->
 
-        <!-- контакти в навігації хедера -->
+        <!-- #region контакти в навігації хедера -->
         <address class="contacts">
           <ul class="contacts-item">
             <li>
@@ -50,17 +51,19 @@
           </ul>
         </address>
       </div>
+      <!-- #endregion -->
     </header>
     <main>
-      <!-- секція з кнопкою -->
+      <!-- #region секція з кнопкою -->
       <section class="main-page">
         <div class="container">
           <h1 class="main-page-title">Effective Solutions for Your Business</h1>
           <button type="button" class="page-button">Order Service</button>
         </div>
       </section>
+      <!-- #endregion -->
 
-      <!-- секція з прихованим заголовком -->
+      <!-- #region секція з прихованим заголовком -->
       <section class="sect-hidden">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -116,15 +119,16 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion -->
 
-      <!-- секція фахівців -->
+      <!-- #region секція фахівців -->
       <section class="our-sect">
         <div class="container">
           <h2 class="prof-title">Our Team</h2>
           <ul class="prof-our">
             <li class="prof-cart">
               <img
-                src="./images/img1-1.jpg"
+                src="./images/our-team/img-Mark-Guerrero.jpg"
                 alt="Product Designer"
                 width="264"
               />
@@ -165,7 +169,7 @@
             </li>
             <li class="prof-cart">
               <img
-                src="./images/img2-1.jpg"
+                src="./images/our-team/img-Tom-Ford.jpg"
                 alt="Frontend Developer"
                 width="264"
               />
@@ -205,7 +209,11 @@
               </div>
             </li>
             <li class="prof-cart">
-              <img src="./images/img3-1.jpg" alt="Marketing" width="264" />
+              <img
+                src="./images/our-team/img-Camila-Garcia.jpg"
+                alt="Marketing"
+                width="264"
+              />
               <div class="cont-cart">
                 <h3 class="title-cart">Camila Garcia</h3>
                 <p class="title-text">Marketing</p>
@@ -242,7 +250,11 @@
               </div>
             </li>
             <li class="prof-cart">
-              <img src="./images/img4-1.jpg" alt="UI Designer" width="264" />
+              <img
+                src="./images/our-team/img-Daniel-Wilson.jpg"
+                alt="UI Designer"
+                width="264"
+              />
               <div class="cont-cart">
                 <h3 class="title-cart">Daniel Wilson</h3>
                 <p class="title-text">UI Designer</p>
@@ -281,15 +293,20 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion -->
 
-      <!-- секція портфоліо -->
+      <!-- #region секція портфоліо -->
       <section class="portfolio">
         <div class="container">
           <h2 class="portf-title">Our Portfolio</h2>
           <ul class="portf-item">
             <li class="portf-list">
               <div class="overlay">
-                <img src="./images/img1-2.jpg" alt="Banking App" width="360" />
+                <img
+                  src="./images/our-portfolio/img-banking-app.jpg"
+                  alt="Banking App"
+                  width="360"
+                />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -304,7 +321,7 @@
             <li class="portf-list">
               <div class="overlay">
                 <img
-                  src="./images/img2-2.jpg"
+                  src="./images/our-portfolio/img-cashless-payment.jpg"
                   alt="Cashless Payment"
                   width="360"
                 />
@@ -322,7 +339,7 @@
             <li class="portf-list">
               <div class="overlay">
                 <img
-                  src="./images/img3-2.jpg"
+                  src="./images/our-portfolio/img-meditation-app.jpg"
                   alt="Meditation App"
                   width="360"
                 />
@@ -339,7 +356,11 @@
             </li>
             <li class="portf-list">
               <div class="overlay">
-                <img src="./images/img4-2.jpg" alt="Taxi Service" width="360" />
+                <img
+                  src="./images/our-portfolio/img-taxi-service.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                />
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -354,7 +375,7 @@
             <li class="portf-list">
               <div class="overlay">
                 <img
-                  src="./images/img5-2.jpg"
+                  src="./images/our-portfolio/img-screen-illustrations.jpg"
                   alt="Screen Illustrations"
                   width="360"
                 />
@@ -372,7 +393,7 @@
             <li class="portf-list">
               <div class="overlay">
                 <img
-                  src="./images/img6-2.jpg"
+                  src="./images/our-portfolio/img-online-courses.jpg"
                   alt="Online Courses"
                   width="360"
                 />
@@ -390,9 +411,9 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion -->
     </main>
-
-    <!-- підвал сторінки -->
+    <!-- #region підвал сторінки -->
     <footer class="under">
       <div class="container">
         <div class="footer-container">
@@ -464,9 +485,10 @@
         </div>
       </div>
     </footer>
+    <!-- #endregion -->
 
-    <!-- modal window -->
-    <div class="backdrop is-open">
+    <!-- #region modal window -->
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="btn-close">
           <svg width="8" height="8" class="icon-close">
@@ -551,5 +573,6 @@
         </form>
       </div>
     </div>
+    <!-- #endregion -->
   </body>
 </html>

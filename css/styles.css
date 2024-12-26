@@ -1,3 +1,4 @@
+/* #region глобальні стилі */
 body {
   color: #434455;
   background-color: #ffffff;
@@ -24,6 +25,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 1158px;
   margin-right: auto;
@@ -31,8 +36,9 @@ img {
   padding-right: 15px;
   padding-left: 15px;
 }
+/* #endregion */
 
-/* навігація хедера */
+/* #region навігація хедера */
 .menu {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -96,9 +102,8 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
-/* !!! */
 
-/* контакти в навігації хедера */
+/* #region контакти в навігації хедера */
 .contacts {
   font-style: normal;
 }
@@ -124,9 +129,11 @@ img {
 .nav-link.current {
   color: #404bbf;
 }
-/* !!! */
+/* #endregion */
 
-/* секція з кнопкою */
+/* #endregion */
+
+/* #region секція з кнопкою */
 .main-page {
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -163,7 +170,6 @@ img {
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   font-family: inherit;
   display: block;
   border: none;
@@ -180,9 +186,9 @@ img {
 .page-button:focus {
   background-color: #404bbf;
 }
-/* !!! */
+/* #endregion */
 
-/* секція з прихованим заголовком */
+/* #region секція з прихованим заголовком */
 .sect-hidden {
   padding: 120px 0;
 }
@@ -240,9 +246,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* !!! */
+/* #endregion */
 
-/* секція фахівців */
+/* #region секція фахівців */
 .our-sect {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -327,9 +333,9 @@ img {
 .team-link:focus {
   background-color: #404bbf;
 }
-/* !!! */
+/* #endregion */
 
-/* секція портфоліо */
+/* #region секція портфоліо */
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -412,9 +418,9 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-/* !!! */
+/* #endregion */
 
-/* підвал сторінки */
+/* #region підвал сторінки */
 .under {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -550,7 +556,6 @@ img {
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
-  cursor: pointer;
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -560,10 +565,9 @@ img {
   fill: #ffffff;
   margin-left: 16px;
 }
+/* #endregion */
 
-/* !!! */
-
-/* modal window */
+/* #region modal window */
 .backdrop {
   position: fixed;
   top: 0;
@@ -608,7 +612,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -770,7 +773,6 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  cursor: pointer;
   border: none;
   display: block;
   margin-right: auto;
@@ -785,3 +787,4 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+/* #endregion */
