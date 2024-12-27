@@ -59,55 +59,71 @@
       </div>
 
       <!-- #region mobile menu -->
-      <div class="mobile-menu is-open">
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close"></button>
+      <div class="mobile-menu">
+        <div class="mobile-menu-container">
+          <button class="mobile-btn-close">
+            <svg class="mobile-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
           <nav class="mobile-menu-nav">
             <ul class="mobile-menu-item">
-              <li class="mobile-menu-link">
-                <a href="./index.html" class="">Studio</a>
+              <li>
+                <a href="./index.html" class="mobile-menu-link studio"
+                  >Studio</a
+                >
               </li>
-              <li class="mobile-menu-link">
-                <a href="#" class="">Portfolio</a>
+              <li>
+                <a href="#" class="mobile-menu-link">Portfolio</a>
               </li>
-              <li class="mobile-menu-link">
-                <a href="#" class="">Contacts</a>
+              <li>
+                <a href="#" class="mobile-menu-link">Contacts</a>
               </li>
             </ul>
           </nav>
           <address class="mobile-address">
             <ul class="address-item">
-              <li class="address-link">
-                <a href="tel:+110001111111" class="">+11 (000) 111-11-11</a>
+              <li>
+                <a href="tel:+110001111111" class="address-link tel"
+                  >+11 (000) 111-11-11</a
+                >
               </li>
-              <li class="address-link">
-                <a href="mailto:info@devstudio.com" class=""
+              <li>
+                <a href="mailto:info@devstudio.com" class="address-link"
                   >info@devstudio.com</a
                 >
               </li>
             </ul>
           </address>
           <div>
-            <ul>
-              <li>
-                <svg class="" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
+            <ul class="mobile-footer-item">
+              <li class="mobile-footer-list">
+                <a href="#" class="mobile-footer-link">
+                  <svg class="mobile-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li>
-                <svg class="" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
+              <li class="mobile-footer-list">
+                <a href="#" class="mobile-footer-link">
+                  <svg class="mobile-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li>
-                <svg class="" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
+              <li class="mobile-footer-list">
+                <a href="#" class="mobile-footer-link">
+                  <svg class="mobile-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
-              <li>
-                <svg class="" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
+              <li class="mobile-footer-list">
+                <a href="#" class="mobile-footer-link">
+                  <svg class="mobile-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -117,7 +133,7 @@
 
       <!-- #endregion -->
     </header>
-    <main class="hidden">
+    <main>
       <!-- #region секція з кнопкою -->
       <section class="main-page">
         <div class="container">
@@ -128,7 +144,7 @@
       <!-- #endregion -->
 
       <!-- #region секція з прихованим заголовком -->
-      <section class="sect-hidden">
+      <section class="sect-hidden hidden">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="page">
@@ -186,7 +202,7 @@
       <!-- #endregion -->
 
       <!-- #region секція фахівців -->
-      <section class="our-sect">
+      <section class="our-sect hidden">
         <div class="container">
           <h2 class="prof-title">Our Team</h2>
           <ul class="prof-our">
@@ -360,7 +376,7 @@
       <!-- #endregion -->
 
       <!-- #region секція портфоліо -->
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portf-title">Our Portfolio</h2>
           <ul class="portf-item">
