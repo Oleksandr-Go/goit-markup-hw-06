@@ -558,12 +558,15 @@ button {
   color: #2e2f42;
   margin-bottom: 72px;
   text-transform: capitalize;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .prof-our {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  align-items: center;
   justify-content: center;
 }
 
@@ -625,11 +628,41 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .our-sect .container {
+    max-width: 584px;
+  }
   .prof-our {
     row-gap: 64px;
     column-gap: 24px;
-    align-items: center;
+  }
+  .prof-cart {
+    width: calc((100% - 24px) / 2);
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .our-sect {
+    padding: 120px 0;
+  }
+  .our-sect .container {
+    min-width: 1128px;
+  }
+  .prof-cart {
+    width: calc((100% - 72px) / 4);
+  }
+  .team-link:hover,
+  .team-link:focus {
+    background-color: #404bbf;
+  }
+}
+
+/* #endregion */
+
+/* #region секція портфоліо */
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
+}
 /* #endregion */
