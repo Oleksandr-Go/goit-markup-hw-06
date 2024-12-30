@@ -741,8 +741,107 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .portf-item {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .portf-list {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
+  .portfolio {
+    padding: 120px 0;
+  }
+  .portf-item {
+    row-gap: 48px;
+    column-gap: 24px;
+  }
+  .portf-list {
+    flex-basis: calc((100% - 48px) / 3);
+    box-shadow: none;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .portf-list:hover,
+  .portf-list:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
 }
+/* #endregion */
+
+/* #region підвал сторінки */
+.under {
+  background-color: #2e2f42;
+  padding: 96px 0;
+}
+
+.under .container {
+  max-width: 320px;
+  padding: 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.logo-under {
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  width: 115px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.accent-under {
+  color: #f4f4fd;
+}
+
+.under-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+}
+
+.social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.under-item {
+  display: flex;
+  gap: 16px;
+}
+
+.under-list {
+  width: 40px;
+  height: 40px;
+}
+
+.under-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-under {
+  fill: #f4f4fd;
+}
+
 /* #endregion */
